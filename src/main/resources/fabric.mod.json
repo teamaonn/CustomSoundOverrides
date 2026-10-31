@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_sounds",
+  "version": "${version}",
+  "name": "Custom Sound Overrides",
+  "environment": "client",
+  "mixins": [
+    "custom_sounds.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}

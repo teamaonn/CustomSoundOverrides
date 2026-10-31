@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.joshua.customsounds.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ClientPackRepositoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
